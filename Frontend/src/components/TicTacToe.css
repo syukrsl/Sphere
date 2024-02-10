@@ -1,0 +1,63 @@
+.game {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 20px;
+  background-color: #61616c;
+}
+
+.game-board {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.board-row {
+  display: flex;
+}
+
+.square {
+  font-size: 24px;
+  width: 50px;
+  height: 50px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.scoreboard {
+  margin-top: 20px;
+  border-collapse: collapse;
+  width: 100%;
+  max-width: 400px;
+  text-align: center;
+  font-size: 18px;
+  border: 2px solid #6f90b8;
+  border-radius: 5px;
+  align-self: center; /* Center the table horizontally */
+}
+
+.scoreboard th,
+.scoreboard td {
+  padding: 10px;
+  border-bottom: 1px solid #5d83b3;
+}
+
+.scoreboard th {
+  background-color: #58697f;
+  color: #fff;
+}
+
+.scoreboard tbody tr:last-child td {
+  border-bottom: none;
+}
+
+.scoreboard td:first-child {
+  text-align: left;
+}
+
+.scoreboard td:last-child {
+  font-weight: bold;
+}

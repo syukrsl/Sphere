@@ -1,0 +1,24 @@
+
+body {
+  background-color: #2a5571; 
+}
+
+.welcome-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh; /* Full viewport height */
+  background-color: #2a5571;
+}
+
+/* Loading animation */
+.loading-animation {
+  width: 100%;
+  height: 100vh;
+  position: fixed;
+  background: rgba(32, 59, 71, 0.382)
+      url("https://media.giphy.com/media/8agqybiK5LW8qrG3vJ/giphy.gif") center
+      no-repeat;
+  z-index: 1;
+}

@@ -1,0 +1,50 @@
+    .welcome-page {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+      background-color: #888383;
+    }
+    .login-card {
+      background-color: #a6a2a2; 
+      border-radius: 10px;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+      padding: 20px;
+      max-width: 500px;
+      text-align: center;
+    }
+    h1 {
+      color: #2e4956;
+    }
+
+    .fa-globe {
+      margin-left: 20px; 
+    }
+    input[type="text"],
+    input[type="email"],
+    input[type="password"] {
+      width: 60%;
+      padding: 10px;
+      margin: 10px 0;
+      border: 1px solid rgb(131, 131, 133);
+      background-color: #d3d2d2;
+    }
+    button {
+      padding: 10px;
+      margin: 10px 0;
+      border: 1px solid rgb(146, 146, 154);
+      border-radius: 10px;
+      max-width: 200px;      
+    }
+    
+    button:hover {
+      background-color: #2e4956;
+    }
+    p {
+      color: #2e4956;
+    }
+    a {
+      color: #2e4956; 
+    }
+    

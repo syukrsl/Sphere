@@ -1,0 +1,54 @@
+.sign-in-page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: #888383;
+}
+.login-card {
+  background-color: #a6a2a2;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  text-align: center;
+  width: 90%;
+  max-width: 500px; 
+}
+h2 {
+  color: #2e4956; 
+}
+input[type="email"],
+input[type="password"],
+button {
+  width: 60%; 
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid rgb(131, 131, 133); 
+  border-radius: 10px; 
+  background-color: #d3d2d2;
+}
+input[type="email"],
+input[type="password"] {
+  height: 40px;
+  font-size: 16px;
+  padding-left: 10px;
+}
+button {
+  background-color: #2e4956; 
+  color: #fff; 
+  border: none;
+  border-radius: 10px; 
+  cursor: pointer;
+  transition: background-color 0.2s ease-in-out;
+}
+
+button:hover {
+  background-color: #2e4956;
+}
+p {
+  color: #2e4956;
+}
+a {
+  color: #2e4956;
+}

@@ -1,0 +1,65 @@
+body {
+      background-color: #3f4448; 
+    }
+
+    .welcome-page {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+    }
+    
+    .login-card {
+      background-color: #3f3f3f; 
+      border-radius: 10px;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+      padding: 20px;
+      text-align: center;
+    }
+    
+    h1 {
+      color: #2e4956;
+    }
+    
+    input[type="text"],
+    input[type="email"],
+    input[type="password"],
+    button {
+      width: 90%;
+      padding: 10px;
+      margin: 10px 0;
+      border: 1px solid rgb(146, 146, 154);
+      border-radius: 10px;
+      
+    }
+    
+    input[type="text"],
+    input[type="email"],
+    input[type="password"] {
+      height: 40px;
+      font-size: 16px;
+      padding-left: 10px;
+    }
+    
+    button {
+      background-color: #8e8e8e; 
+      color: #fff; 
+      font-size: 16px;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+    
+    button:hover {
+      background-color: #2e4956; 
+    }
+  
+    p {
+      color: #000000;
+    }
+    
+    a {
+      color: #2e4956; 
+    }
+    
